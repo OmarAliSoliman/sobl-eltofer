@@ -1448,6 +1448,624 @@ img {
   padding: 15px;
 }
 
+.login-rigister .login,
+.login-rigister .rigister {
+  bordeR: 1px solid #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.login-rigister .rigister-login-form .form-group .form-control {
+  height: calc(1.5em + .75rem + 10px);
+  border: 0;
+  border-bottom: 1px solid #afaeae;
+  border-radius: 0;
+}
+.login-rigister .rigister-login-form .remember {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.login-rigister .rigister-login-form .btn {
+  color: #fff;
+  width: 100px;
+}
+.login-rigister .rigister-login-form .btn-login-div {
+  text-align: left;
+}
+.login-rigister .rigister-login-form .btn-submit {
+  text-align: left;
+}
+.login-rigister .rigister-login-form .btn-login {
+  background-color: #750A16;
+  border: 1px solid #750A16;
+  margin-bottom: 10px;
+  border-radius: 0;
+  width: 145px;
+}
+.login-rigister .rigister-login-form .btn-rigister {
+  background-color: #750A16;
+  border: 1px solid #750A16;
+  border-radius: 0;
+  width: 145px;
+}
+
+.faq {
+  margin-bottom: 80px;
+}
+.faq .head {
+  text-align: center;
+  margin: 45px 0 45px 0;
+}
+.faq #accordion .card {
+  border: 0;
+  margin-top: 20px;
+}
+.faq .card-header {
+  background-color: #F2F2F2;
+  border: 0 !important;
+  border-radius: 9px;
+  position: relative;
+}
+.faq .card-header .btn-link {
+  color: #750A16;
+  text-decoration: none;
+}
+.faq .card-header .btn-link::after {
+  content: "";
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translate(-4%, -50%);
+}
+.faq .card-body {
+  color: #797979;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.steps-card {
+  margin-top: 45px;
+}
+.steps-card .card-header {
+  text-align: center;
+  padding: 20px;
+}
+.steps-card .card-header img {
+  width: 37px;
+  height: 28px;
+}
+.steps-card .card-header span {
+  color: #B4B4B4;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.steps-card .card-body {
+  padding-right: 140px;
+  padding-left: 140px;
+}
+.steps-card .card-body ul {
+  text-align: center;
+}
+.steps-card .card-body ul li .st-number {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 5px;
+  border: 1px solid #D9D9D9;
+}
+.steps-card .card-body ul li::after {
+  content: "";
+  margin-right: 60px;
+  font-size: 40px;
+  color: #d9d9d9;
+  position: absolute;
+}
+.steps-card .card-body ul .last::after {
+  content: "";
+}
+.steps-card .card-body .active .st-number {
+  background-color: #750A16;
+  border: 1px solid #750A16;
+  color: #fff;
+}
+
+.cart-table-by-step1 {
+  margin-top: 145px;
+}
+.cart-table-by-step1 .form-group {
+  margin-bottom: 0;
+}
+.cart-table-by-step1 .copon {
+  background-color: #FBFBFB;
+  padding: 30px;
+  padding-bottom: 30px;
+}
+.cart-table-by-step1 .total-price {
+  text-align: left;
+  padding-left: 90px;
+}
+.cart-table-by-step1 .total-price h5,
+.cart-table-by-step1 .total-price p {
+  margin: 0;
+}
+.cart-table-by-step1 .total-price p {
+  font-size: 25px;
+  color: #750A16;
+}
+.cart-table-by-step1 .counter {
+  border: 1px solid #DDD;
+  border-radius: 10px;
+  width: 125px;
+  margin-bottom: 10px !important;
+}
+.cart-table-by-step1 .number-input {
+  line-height: 0 !important;
+  width: 30px !important;
+  height: 30px !important;
+  padding-top: 15px !important;
+  border: 0 !important;
+}
+.cart-table-by-step1 .decrementer {
+  background-color: transparent !important;
+  color: #555 !important;
+  line-height: 20px !important;
+  width: 40px !important;
+  height: 30px !important;
+  border: 0 !important;
+  padding: 0 !important;
+}
+.cart-table-by-step1 .incrementer {
+  display: inline-block;
+  padding: 0 !important;
+  line-height: 20px !important;
+  border: 0 !important;
+  width: 40px !important;
+  height: 30px !important;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent !important;
+  color: #555 !important;
+  border: 0;
+}
+
+.options-buy-step1 {
+  margin-bottom: 80px;
+  margin-top: 30px;
+  text-align: left;
+}
+.options-buy-step1 a:first-child {
+  background-color: transparent;
+  bordeR: 1px solid #750A16;
+  color: #750A16;
+  margin-left: 6px;
+}
+
+.pill-buers-info {
+  margin-top: 40px;
+}
+.pill-buers-info .buers-info .card {
+  border: 0;
+}
+.pill-buers-info .buers-info .card .card-header {
+  background-color: transparent;
+  position: relative;
+  border-bottom: 2px solid #f1f1f1;
+}
+.pill-buers-info .buers-info .card .card-header h5 {
+  font-weight: bold;
+}
+.pill-buers-info .buers-info .card .card-header .new-address {
+  position: absolute;
+  left: 1%;
+  color: #750A16;
+  top: 50%;
+  transform: translate(-1%, -50%);
+}
+.pill-buers-info .buers-info .card .card-header .new-address i {
+  font-size: 13px;
+}
+.pill-buers-info .buers-info .card .card-body ul li {
+  margin-top: 30px;
+}
+.pill-buers-info .buers-info .card .card-body ul li .buer-q {
+  color: #B4B4B4;
+  font-size: 14px;
+}
+.pill-buers-info .buers-info .card .card-body ul li .buer-res {
+  font-size: 18px !important;
+  color: #444;
+}
+.pill-buers-info .bills .card {
+  border: 0;
+}
+.pill-buers-info .bills .card .card-header {
+  background-color: transparent;
+  position: relative;
+  border-bottom: 2px solid #f1f1f1;
+}
+.pill-buers-info .bills .card .card-header h5 {
+  font-weight: bold;
+}
+.pill-buers-info .bills .card .card-body .totla {
+  border-bottom: 2px dashed #707070;
+  padding-bottom: 20px;
+}
+.pill-buers-info .bills .card .card-body ul li {
+  margin-top: 20px;
+}
+.pill-buers-info .bills .card .card-body ul .price-float {
+  float: left;
+  font-weight: bold;
+}
+.pill-buers-info .bills .card .card-body ul .total-price {
+  color: #750A16;
+  font-size: 20px;
+}
+.pill-buers-info .bills .card .card-body .more-copon {
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+}
+.pill-buers-info .bills .card .card-body .btn-buy {
+  margin-top: 40px;
+}
+.pill-buers-info .bills .card .card-body .btn-buy .btn {
+  background-color: #750A16;
+  color: #fff;
+  width: 190px;
+  font-size: 14px;
+}
+
+.buy-way .head {
+  border-bottom: 2px solid #707070;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.buy-way .buy-way-form {
+  width: 60%;
+  margin: auto;
+}
+.buy-way .buy-way-form .chose-way {
+  text-align: center;
+}
+.buy-way .buy-way-form .chose-way a {
+  border: 1px solid #BABABA;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.buy-way .buy-way-form .chose-way .active {
+  background-color: #750A16;
+  color: #fff;
+  border: 1px solid #750A16;
+}
+.buy-way .buy-way-form .form-control {
+  text-align: center;
+  height: calc(1.5em + .75rem + 10px);
+}
+.buy-way .buy-way-form input[type=date] {
+  background-color: #DDD;
+}
+.buy-way .buy-way-form .btn {
+  background-color: #750A16;
+  color: #fff;
+  width: 200px;
+  font-size: 14px;
+}
+
+.account .my-account-navs {
+  border: 1px solid #F5F5F5;
+  margin-top: 50px;
+  border-radius: 6px;
+}
+.account .my-account-navs .card-header {
+  background-color: #F5F5F5;
+  font-size: 18px;
+  border-bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  padding: 0;
+  padding-right: 10px;
+}
+.account .my-account-navs .nav-link {
+  padding: 0px;
+  padding: 0 20px 0 20px;
+  line-height: 65px;
+  border-radius: 0;
+  color: #555;
+  font-size: 15px;
+  height: 65px;
+}
+.account .my-account-navs .nav-link img {
+  width: 20px;
+  margin-left: 5px;
+}
+.account .my-account-navs .active {
+  background-color: #F5F5F5;
+}
+.account .log-out {
+  border: 1px solid #F5F5F5;
+}
+.account .log-out .btn {
+  background-color: transparent;
+  color: #750A16;
+  padding: 15px;
+  width: 100%;
+}
+.account .my-account-tabs {
+  margin-top: 50px;
+}
+.account .my-account-tabs .tab-header {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 55px;
+}
+.account .my-account-tabs #my-account .my-account-details .card {
+  height: 244px;
+  margin-bottom: 10px;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-header {
+  position: relative;
+  background-color: transparent;
+  color: #750A16;
+  border-bottom: 1px solid #DFDFDF;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-header h6 {
+  margin-top: 4px;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-header .edit {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+  font-size: 14px;
+  color: #750A16 !important;
+  text-decoration: none;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-body .namt {
+  margin: 0;
+  font-size: 18px;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-body .email {
+  font-size: 17px;
+  color: #525252;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-body .change-pass {
+  color: #750A16;
+  text-decoration: none;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-body .change-pass::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  font-size: 14px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.account .my-account-tabs #my-account .my-account-details .card .card-body .change-pass img {
+  width: 20px;
+  height: 20px;
+}
+.account .my-account-tabs #my-account .phones ul li img {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.account .my-account-tabs #my-account .phones ul li .phone-number {
+  font-size: 14px;
+  color: #B4B4B4;
+}
+.account .my-account-tabs #my-account .phones ul li .number {
+  font-size: 17px;
+  color: #171717;
+}
+.account .my-account-tabs #my-product .card {
+  margin-top: 20px;
+}
+.account .my-account-tabs #my-product .card .card-header {
+  position: relative;
+  background-color: transparent;
+  border-bottom: 1px solid #DFDFDF;
+}
+.account .my-account-tabs #my-product .card .card-header h6 {
+  margin-top: 4px;
+}
+.account .my-account-tabs #my-product .card .card-header .delete {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+  font-size: 14px;
+  color: #750A16 !important;
+  text-decoration: none;
+}
+.account .my-account-tabs #my-product .card .card-body ul li {
+  width: 50%;
+  float: right;
+}
+.account .my-account-tabs #my-product .card .card-body ul li h5 {
+  font-size: 16px;
+  color: #525252;
+}
+.account .my-account-tabs #my-product .card .card-body ul li h5 .number, .account .my-account-tabs #my-product .card .card-body ul li h5 .date, .account .my-account-tabs #my-product .card .card-body ul li h5 .price {
+  font-weight: bold;
+  margin: 0 4px 0 4px;
+}
+.account .my-account-tabs #fav-product .card, .account .my-account-tabs .av-product-class .card {
+  position: relative;
+  border-radius: 15px !important;
+  margin-top: 20px;
+  padding: 18px;
+}
+.account .my-account-tabs #fav-product .card .heart, .account .my-account-tabs .av-product-class .card .heart {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  z-index: 2;
+}
+.account .my-account-tabs #fav-product .card .heart .fa-heart, .account .my-account-tabs .av-product-class .card .heart .fa-heart {
+  color: #750A16;
+}
+.account .my-account-tabs #fav-product .card img, .account .my-account-tabs .av-product-class .card img {
+  width: 100px;
+  height: 100px;
+}
+.account .my-account-tabs #fav-product .card .card-body, .account .my-account-tabs .av-product-class .card .card-body {
+  padding: 0;
+}
+.account .my-account-tabs #fav-product .card .card-body .card-title, .account .my-account-tabs .av-product-class .card .card-body .card-title {
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
+}
+.account .my-account-tabs #fav-product .card .card-body .card-text, .account .my-account-tabs .av-product-class .card .card-body .card-text {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 13px;
+  margin-bottom: 17px;
+}
+.account .my-account-tabs #fav-product .card .card-body .card-text .price, .account .my-account-tabs .av-product-class .card .card-body .card-text .price {
+  margin: 0 4px 0 4px;
+  font-weight: bold;
+}
+.account .my-account-tabs #fav-product .card .card-body .rate i, .account .my-account-tabs .av-product-class .card .card-body .rate i {
+  font-size: 13px;
+  color: #750A16;
+}
+.account .my-account-tabs #fav-product .card .card-body .btn-add-cart, .account .my-account-tabs .av-product-class .card .card-body .btn-add-cart {
+  position: absolute;
+  left: 18px;
+  bottom: 20px;
+  padding: 0;
+  border: 1px solid #750A16;
+  color: #750A16;
+  width: 130px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 14px;
+}
+.account .my-account-tabs #fav-product .card .card-body .btn-add-cart i, .account .my-account-tabs .av-product-class .card .card-body .btn-add-cart i {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.account .my-account-tabs #comment-rate .card {
+  position: relative;
+  border-radius: 15px !important;
+  margin-top: 20px;
+  padding: 18px;
+}
+.account .my-account-tabs #comment-rate .card .card-title {
+  margin-bottom: 13px;
+}
+.account .my-account-tabs #comment-rate .card .info {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 13px;
+}
+.account .my-account-tabs #comment-rate .card .info .price {
+  display: inline-block;
+  margin-right: 22px;
+}
+.account .my-account-tabs #comment-rate .btn-rate {
+  position: absolute;
+  left: 18px;
+  top: 5px;
+  padding: 0;
+  border: 1px solid #750A16;
+  color: #750A16;
+  width: 130px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 14px;
+}
+
+.rate-product .rate-product-card {
+  border: 1px solid #DFDFDF;
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 6px;
+  padding: 34px 40px 40px 40px;
+}
+.rate-product .rate-product-card .rate-header {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 55px;
+}
+.rate-product .rate-product-card .rate-header a {
+  color: #000;
+}
+.rate-product .rate-product-card .rate-header a i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.rate-product .rate-product-card .rate-img {
+  width: 265px;
+  height: 265px;
+}
+.rate-product .rate-product-card .rate-content {
+  padding-right: 10px;
+}
+.rate-product .rate-product-card .rate-content h6 {
+  font-size: 18px;
+}
+.rate-product .rate-product-card .rate-content h5 {
+  font-size: 19px;
+  font-weight: bold;
+}
+.rate-product .rate-product-card .rate-content .rate {
+  margin-top: 15px;
+}
+.rate-product .rate-product-card .rate-content .rate i {
+  color: #DDD;
+  font-size: 20px;
+}
+.rate-product .form-rate .form-group {
+  margin-top: 30px;
+}
+.rate-product .form-rate .form-group label {
+  color: #BABABA;
+}
+.rate-product .form-rate .form-group .form-control {
+  border: 0;
+  border-bottom: 1px solid #999999;
+  border-radius: 0;
+  padding-bottom: 20px;
+}
+.rate-product .form-rate .form-group .form-control::placeholder {
+  font-size: 13px;
+  color: #BABABA;
+}
+.rate-product .form-rate .btn-submit {
+  text-align: left;
+}
+.rate-product .form-rate .btn-submit .btn {
+  background-color: #750A16;
+  color: #fff;
+  width: 170px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.account-footer {
+  margin-top: 200px;
+}
+
 footer {
   background-color: #000;
   margin-top: 40px;
@@ -1592,6 +2210,11 @@ footer .footer-bottom .social i {
   .product .nav-pills-company .nav-item {
     width: 12%;
   }
+
+  .steps-card .card-body {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 @media (max-width: 800px) {
   .top-header .support {
@@ -1665,6 +2288,18 @@ footer .footer-bottom .social i {
     padding-bottom: 20px;
     border-bottom: 1px solid #f5f5f5 !important;
   }
+
+  .steps-card .card-body ul li::after {
+    margin-right: 27px;
+  }
+
+  .cart-table-by-step1 .form-group {
+    margin-bottom: 10px;
+  }
+  .cart-table-by-step1 .total-price {
+    text-align: left;
+    padding-left: 0px;
+  }
 }
 @media (max-width: 524px) {
   .new-added hr {
@@ -1723,6 +2358,31 @@ footer .footer-bottom .social i {
   .cart-table .table-image img {
     max-width: 129px;
   }
+
+  .steps-card .card-body ul {
+    text-align: right;
+    padding-right: 10px;
+  }
+  .steps-card .card-body ul li {
+    margin-top: 10px;
+  }
+  .steps-card .card-body ul li::after {
+    content: "";
+  }
+
+  .buy-way .buy-way-form {
+    width: 100%;
+  }
+
+  .account .my-account-tabs #fav-product .card .card-body .btn-add-cart {
+    left: 0;
+    bottom: 0;
+  }
+
+  .account .my-account-tabs #comment-rate .btn-rate {
+    left: 0;
+    top: 0;
+  }
 }
 @media (max-width: 375px) {
   .product .nav-pills-company .nav-item {
@@ -1732,9 +2392,20 @@ footer .footer-bottom .social i {
     height: 60px;
   }
 }
-.header-slider .slick-prev::before, .header-slider .slick-next::before, .new-added .choses .choses-slider .slick-prev::before, .new-added .choses .choses-slider .slick-next::before, .today-offer .to-day-offer-colm .slick-prev::before, .today-offer .to-day-offer-colm .slick-next::before {
+.header-slider .slick-prev::before, .header-slider .slick-next::before, .new-added .choses .choses-slider .slick-prev::before, .new-added .choses .choses-slider .slick-next::before, .today-offer .to-day-offer-colm .slick-prev::before, .today-offer .to-day-offer-colm .slick-next::before, .faq .card-header .btn-link::after, .steps-card .card-body ul li::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+
+.account .my-account-tabs #my-account, .account .my-account-tabs #my-product, .account .my-account-tabs #fav-product, .account .my-account-tabs .av-product-class, .account .my-account-tabs #comment-rate {
+  border: 1px solid #DFDFDF;
+  border-radius: 6px;
+  padding: 34px 40px 40px 40px;
+}
+
+.account .my-account-tabs #my-account .my-account-details .card, .account .my-account-tabs #my-product .card, .account .my-account-tabs #fav-product .card, .account .my-account-tabs .av-product-class .card, .account .my-account-tabs #comment-rate .card {
+  border: 1px solid #DFDFDF;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */

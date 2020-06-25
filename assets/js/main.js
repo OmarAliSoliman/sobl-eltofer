@@ -160,5 +160,6 @@ $(document).ready(function () {
   });
 
   $("#example").htmlNumberSpinner();
+  $("#example2").htmlNumberSpinner();
 
 });
